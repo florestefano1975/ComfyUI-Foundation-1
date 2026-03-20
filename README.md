@@ -16,7 +16,7 @@ An unofficial custom node for **ComfyUI** to run the **Foundation-1** music gene
 Navigate to your ComfyUI custom_nodes folder and clone this repo:
 ```bash
 cd ComfyUI/custom_nodes/
-git clone https://github.com/your-username/ComfyUI-Foundation-1
+git clone https://github.com/florestefano1975/ComfyUI-Foundation-1
 ```
 
 ### 2. Environment Setup (ComfyUI Windows Portable)
