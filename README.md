@@ -53,11 +53,8 @@ This model requires specific libraries that can be tricky on newer Python versio
 
 ### Nodes
 * **F1 Local Model Loader**: Select your model from the dropdown. It automatically detects the matching JSON config in the same folder.
-* **F1 Audio Sampler**:
-    * **prompt**: Use descriptive tags (e.g., Techno, 128 BPM, Dark, Industrial Synth).
-    * **seconds_total**: Desired output length.
-    * **steps**: Diffusion steps (50-100 recommended for quality).
-    * **cfg_scale**: Guidance scale (7.0 is usually ideal).
+* **F1 Audio Sampler (Simple)**: Simple interface for quick generation.
+* **F1 Audio Sampler (Advanced)**: Adds more control over generation parameters.
 
 ### Prompting Tips
 Foundation-1 thrives on technical descriptors. Try this structure:
