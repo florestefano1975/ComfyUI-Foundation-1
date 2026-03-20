@@ -14,15 +14,15 @@ An unofficial custom node for **ComfyUI** to run the **Foundation-1** music gene
 
 ### 1. Clone the repository
 Navigate to your ComfyUI custom_nodes folder and clone this repo:
-\\\bash
+```bash
 cd ComfyUI/custom_nodes/
 git clone https://github.com/your-username/ComfyUI-Foundation-1
-\\\
+```
 
 ### 2. Environment Setup (ComfyUI Windows Portable)
 This model requires specific libraries that can be tricky on newer Python versions (3.12/3.13). Open a terminal in your python_embeded folder and run:
 
-\\\bash
+```bash
 # 1. Update core tools
 .\python.exe -m pip install --upgrade pip setuptools wheel
 
@@ -31,7 +31,7 @@ This model requires specific libraries that can be tricky on newer Python versio
 
 # 3. Install remaining requirements with binary preference (avoids C++ compilation errors)
 .\python.exe -m pip install -r ..\ComfyUI\custom_nodes\ComfyUI-Foundation-1\requirements.txt --prefer-binary
-\\\
+```
 
 > **Note**: If you see ModuleNotFoundError: No module named 'pkg_resources', run:
 > .\python.exe -m pip install setuptools==70.0.0
