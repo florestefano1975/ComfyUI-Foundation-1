@@ -8,6 +8,7 @@ An unofficial custom node for **ComfyUI** to run the **Foundation-1** music gene
 * **VRAM Optimized**: Dynamically adjusts generation size to save memory and speed up processing for shorter clips.
 * **Musical Control**: Full support for BPM, Key, Scale, and Timbre descriptors.
 
+![Preview of Foundation-1 nodes in ComfyUI](assets/nodes-preview.png)
 ---
 
 ## 🛠️ Installation
